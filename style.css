@@ -1,0 +1,79 @@
+#carrousel{
+    position:relative;
+    height:480px;
+    width:640px;
+    margin:auto;
+}
+#carrousel ul li{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+ul {
+list-style:none;
+}
+
+.prev {
+    /* bouton */
+	position:absolute;
+    top:0;
+    left:0;
+    background-color: #4CAF50; /* Green */
+    /* fin bouton */
+     
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.next {
+	/* bouton */
+    position:absolute;
+    top:0;
+    right:0;
+    background-color: #4CAF50; /* Green */
+    /* fin bouton */
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.fleche_gauche {
+    position:absolute;
+    top:200;
+    left:0;
+
+    /*width: 0; 
+    height: 0; */
+  
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent; 
+     
+    border-right:25px solid blue; 
+
+}
+.fleche_droite {
+    position:absolute;
+    top:200;
+    right:0;
+
+    /*width: 0; 
+    height: 0; */
+    
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+     
+    border-left: 25px solid blue;
+}
